@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    font-family: "Overpass", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    color: white;
+}
+
+.main {
+    background-color: hsl(210, 21%, 15%);
+    border-radius: 25px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 315px;
+    height: 330px;
+    margin: 200px auto auto auto;
+    padding: 3vh;
+}
+
+.heading {
+    font-size: 3vh;
+    font-weight: 700;
+    margin-top: 0.1rem;
+}
+
+.paragraph {
+    color: hsl(217, 12%, 63%);
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: -4vh;
+    margin-bottom: 4vh;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -40px;
+    margin-top: -3vh;
+}
+
+.image1 {
+    margin-top: 15px;
+    position: relative;
+    left: 0.5rem;
+    top: -0.5rem;
+    background-color: rgba(66, 73, 81, 0.411);
+    border-radius: 50%;
+    width: 2.2rem;
+    height: 2.2rem;
+    text-align: center;
+    padding-top: 0.55rem;
+}
+
+#img1 {
+    width: 35%;
+    height: auto;
+}
+
+button {
+    font-weight: 700;
+    width: 100%;
+    height: 5vh;
+    border-radius: 20px;
+    background-color: hsl(25, 97%, 53%);
+    color: rgba(255, 255, 255, 0.816);
+    letter-spacing: 3px;
+    border: none;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+.number {
+    color: hsl(217, 12%, 63%);
+    background-color: rgba(66, 73, 81, 0.411);
+    border-radius: 50%;
+    height: 5vh;
+    width: 5vh;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Overpass", sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+    padding-top: 0.2rem;
+    padding-left: 0.6rem;
+}
+
+.number:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+.number:focus {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+li {
+    list-style-type: none;
+    padding-left: 0.2rem;
+}
+
+.thankyou-card {
+    align-items: center;
+    text-align: center;
+    padding: 5vh 2.8vh;
+}
+
+.img2 {
+    width: 7.5rem;
+    height: auto;
+}
+
+.selected {
+    background-color: rgba(66, 73, 81, 0.411);
+    color: rgba(251, 116, 19, 0.663);
+    font-size: 0.75rem;
+    border-radius: 2rem;
+    width: 9.5rem;
+    height: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1.3rem;
+    padding: 0.3rem 0;
+}
+
+.thankyou {
+    font-size: 1.4rem;
+    margin-top: 1.8rem;
+}
+
+.paragraph2 {
+    color: hsl(217, 12%, 63%);
+    font-size: 0.725rem;
+    line-height: 1.2rem;
+}
+
+.hidden {
+    display: none;
+}
